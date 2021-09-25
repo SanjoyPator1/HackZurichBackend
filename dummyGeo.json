@@ -1,22 +1,2884 @@
 {
     "geo":[
         {
-            "daysUntilFailure":6,
-            "dateOfFailure":"2021-09-26",
-            "trackId":1,
-            "areaNumber":33,
-            "longitude":8.43475341796875,
-            "latitude":46.822616668804926,
-            "segmentNo":100
-        },
-        {
-            "daysUntilFailure":21,
-            "dateOfFailure":"2021-10-10",
-            "trackId":1,
-            "areaNumber":33,
-            "longitude":8.43475341796875,
-            "latitude":46.822616668804926,
-            "segmentNo":100
-        }
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "108",
+            "longitude": 8.0520253067,
+            "latitude": 47.3144980413,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "109",
+            "longitude": 8.0524298562,
+            "latitude": 47.3153269356,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "110",
+            "longitude": 8.0528024449,
+            "latitude": 47.3162179698,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "111",
+            "longitude": 8.0526954852,
+            "latitude": 47.3171343498,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "112",
+            "longitude": 8.0524946091,
+            "latitude": 47.3179974625,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "113",
+            "longitude": 8.0526476499,
+            "latitude": 47.3189260187,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "114",
+            "longitude": 8.0528020475,
+            "latitude": 47.3197540676,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "115",
+            "longitude": 8.0529674434,
+            "latitude": 47.3205628771,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "116",
+            "longitude": 8.053171377,
+            "latitude": 47.3214555662,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "117",
+            "longitude": 8.0534400941,
+            "latitude": 47.322367282,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "118",
+            "longitude": 8.0537584766,
+            "latitude": 47.3232600479,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "119",
+            "longitude": 8.0540392368,
+            "latitude": 47.3241203607,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "120",
+            "longitude": 8.0543152166,
+            "latitude": 47.324991028,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "121",
+            "longitude": 8.0545413272,
+            "latitude": 47.3257405906,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "122",
+            "longitude": 8.0546739996,
+            "latitude": 47.3268214118,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "123",
+            "longitude": 8.0545991034,
+            "latitude": 47.3277097225,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "124",
+            "longitude": 8.0545217929,
+            "latitude": 47.3286328366,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "125",
+            "longitude": 8.0545404788,
+            "latitude": 47.3294724648,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "126",
+            "longitude": 8.0545845495,
+            "latitude": 47.3303663778,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "127",
+            "longitude": 8.0546674086,
+            "latitude": 47.3312848869,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "128",
+            "longitude": 8.0546034322,
+            "latitude": 47.3321722598,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "129",
+            "longitude": 8.0544141959,
+            "latitude": 47.3330691024,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "130",
+            "longitude": 8.0542711159,
+            "latitude": 47.3339720242,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "131",
+            "longitude": 8.0542687023,
+            "latitude": 47.334625758,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "132",
+            "longitude": 8.054130861,
+            "latitude": 47.3357323316,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "133",
+            "longitude": 8.0537480357,
+            "latitude": 47.3366124506,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "134",
+            "longitude": 8.0536041143,
+            "latitude": 47.337515336,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "135",
+            "longitude": 8.0533793114,
+            "latitude": 47.3384387102,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "136",
+            "longitude": 8.0530371148,
+            "latitude": 47.3391227781,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "137",
+            "longitude": 8.0529307994,
+            "latitude": 47.340055752,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "138",
+            "longitude": 8.0532288154,
+            "latitude": 47.3409775785,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "139",
+            "longitude": 8.0534510205,
+            "latitude": 47.3418896348,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "140",
+            "longitude": 8.0531273121,
+            "latitude": 47.3427333351,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "141",
+            "longitude": 8.052639163,
+            "latitude": 47.3435855118,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "142",
+            "longitude": 8.0521282073,
+            "latitude": 47.3444057666,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "143",
+            "longitude": 8.0516714909,
+            "latitude": 47.3451748802,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "144",
+            "longitude": 8.0512604314,
+            "latitude": 47.3459864587,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "145",
+            "longitude": 8.0508125309,
+            "latitude": 47.3468319569,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "146",
+            "longitude": 8.0503371997,
+            "latitude": 47.3476603888,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "147",
+            "longitude": 8.0498616433,
+            "latitude": 47.3485120639,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "148",
+            "longitude": 8.0494199874,
+            "latitude": 47.3494208042,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "149",
+            "longitude": 8.0489814968,
+            "latitude": 47.3503401077,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "150",
+            "longitude": 8.0484545332,
+            "latitude": 47.3510993746,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "151",
+            "longitude": 8.047945464,
+            "latitude": 47.3518919245,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "152",
+            "longitude": 8.0475094195,
+            "latitude": 47.3527719911,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "153",
+            "longitude": 8.0471259831,
+            "latitude": 47.3536423277,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "154",
+            "longitude": 8.0468454306,
+            "latitude": 47.3545551548,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "155",
+            "longitude": 8.0466166586,
+            "latitude": 47.3553990355,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "156",
+            "longitude": 8.0466070432,
+            "latitude": 47.3561957404,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "157",
+            "longitude": 8.0466548442,
+            "latitude": 47.3571024259,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "158",
+            "longitude": 8.0463557932,
+            "latitude": 47.3580040364,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "159",
+            "longitude": 8.0461452802,
+            "latitude": 47.3588682783,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "160",
+            "longitude": 8.0463947906,
+            "latitude": 47.359755054,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "161",
+            "longitude": 8.046168258,
+            "latitude": 47.3606606325,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "162",
+            "longitude": 8.0455778583,
+            "latitude": 47.3610948588,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "163",
+            "longitude": 8.0442889396,
+            "latitude": 47.3618518713,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "164",
+            "longitude": 8.0433061104,
+            "latitude": 47.362444603,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "165",
+            "longitude": 8.0423084744,
+            "latitude": 47.3630492093,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "166",
+            "longitude": 8.0414607183,
+            "latitude": 47.3637151808,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "167",
+            "longitude": 8.0418627437,
+            "latitude": 47.3646175778,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "168",
+            "longitude": 8.042622747,
+            "latitude": 47.3650575527,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "169",
+            "longitude": 8.0434701704,
+            "latitude": 47.3657320558,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "170",
+            "longitude": 8.0440030977,
+            "latitude": 47.3666185166,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 23,
+            "dateOfFailure": "2021-10-23",
+            "segmentNo": "171",
+            "longitude": 8.0444079965,
+            "latitude": 47.367483331,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "172",
+            "longitude": 8.0445015043,
+            "latitude": 47.3686265368,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "173",
+            "longitude": 8.0444961626,
+            "latitude": 47.3691286012,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "174",
+            "longitude": 8.0445757806,
+            "latitude": 47.3700971518,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "175",
+            "longitude": 8.0453634148,
+            "latitude": 47.370787574,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "176",
+            "longitude": 8.0462225682,
+            "latitude": 47.3714521237,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "177",
+            "longitude": 8.0469295178,
+            "latitude": 47.3722099704,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "178",
+            "longitude": 8.0476092329,
+            "latitude": 47.3729744183,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "179",
+            "longitude": 8.0483210467,
+            "latitude": 47.3737295549,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "180",
+            "longitude": 8.0489500495,
+            "latitude": 47.3745801427,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "181",
+            "longitude": 8.0493329709,
+            "latitude": 47.3756595949,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "182",
+            "longitude": 8.0494739462,
+            "latitude": 47.3762620108,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "183",
+            "longitude": 8.0496871601,
+            "latitude": 47.3771568981,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "184",
+            "longitude": 8.0499147816,
+            "latitude": 47.3780718825,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "185",
+            "longitude": 8.0501377975,
+            "latitude": 47.3789701648,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "186",
+            "longitude": 8.0503449204,
+            "latitude": 47.3798040152,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "187",
+            "longitude": 8.0505626635,
+            "latitude": 47.3806878802,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "188",
+            "longitude": 8.050708068,
+            "latitude": 47.3816103508,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "189",
+            "longitude": 8.0506860609,
+            "latitude": 47.382531605,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "190",
+            "longitude": 8.0505750358,
+            "latitude": 47.3834196908,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "191",
+            "longitude": 8.050419866,
+            "latitude": 47.3842661672,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "192",
+            "longitude": 8.0502371542,
+            "latitude": 47.3851668717,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "193",
+            "longitude": 8.050036159,
+            "latitude": 47.3860684053,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "194",
+            "longitude": 8.0498512035,
+            "latitude": 47.3869509988,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "195",
+            "longitude": 8.0497399461,
+            "latitude": 47.387863143,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "196",
+            "longitude": 8.0500809336,
+            "latitude": 47.3887329386,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "197",
+            "longitude": 8.0505766461,
+            "latitude": 47.3895686969,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "198",
+            "longitude": 8.0512693922,
+            "latitude": 47.3902619511,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "199",
+            "longitude": 8.0526977068,
+            "latitude": 47.3908916115,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "200",
+            "longitude": 8.0532126743,
+            "latitude": 47.3910389198,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "201",
+            "longitude": 8.0545283112,
+            "latitude": 47.3917228787,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "202",
+            "longitude": 8.0557139721,
+            "latitude": 47.3920947656,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "203",
+            "longitude": 8.0569763437,
+            "latitude": 47.3924046458,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "204",
+            "longitude": 8.058258295,
+            "latitude": 47.3926601305,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "205",
+            "longitude": 8.0595153323,
+            "latitude": 47.3929483077,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "206",
+            "longitude": 8.0606999904,
+            "latitude": 47.3932191859,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "207",
+            "longitude": 8.0620334911,
+            "latitude": 47.3934747139,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "208",
+            "longitude": 8.0633276847,
+            "latitude": 47.3936666887,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "209",
+            "longitude": 8.0645937697,
+            "latitude": 47.3937303486,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "210",
+            "longitude": 8.0658538311,
+            "latitude": 47.393509279,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "211",
+            "longitude": 8.0669502957,
+            "latitude": 47.392988999,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "212",
+            "longitude": 8.0677248514,
+            "latitude": 47.3922407519,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "213",
+            "longitude": 8.0683385468,
+            "latitude": 47.3914033462,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "214",
+            "longitude": 8.0689258867,
+            "latitude": 47.3906189924,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "215",
+            "longitude": 8.0697114249,
+            "latitude": 47.3896993652,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "216",
+            "longitude": 8.0702130719,
+            "latitude": 47.3891617184,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "217",
+            "longitude": 8.0709811339,
+            "latitude": 47.3883824154,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "218",
+            "longitude": 8.0717642786,
+            "latitude": 47.3876295948,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "219",
+            "longitude": 8.0725792076,
+            "latitude": 47.3868870019,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "220",
+            "longitude": 8.0734407814,
+            "latitude": 47.3861579828,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "221",
+            "longitude": 8.0742685205,
+            "latitude": 47.3854845451,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "222",
+            "longitude": 8.0751327821,
+            "latitude": 47.3848350646,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "223",
+            "longitude": 8.0760217954,
+            "latitude": 47.3842148769,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "224",
+            "longitude": 8.0769396,
+            "latitude": 47.383611689,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "225",
+            "longitude": 8.0779660734,
+            "latitude": 47.3829507031,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "226",
+            "longitude": 8.0789824328,
+            "latitude": 47.3822960459,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "227",
+            "longitude": 8.0798913644,
+            "latitude": 47.3817019984,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "228",
+            "longitude": 8.0807941692,
+            "latitude": 47.3810936772,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "229",
+            "longitude": 8.0818195682,
+            "latitude": 47.3804304502,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "230",
+            "longitude": 8.0827455094,
+            "latitude": 47.379830883,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "231",
+            "longitude": 8.0836574516,
+            "latitude": 47.3792132643,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "232",
+            "longitude": 8.0844609788,
+            "latitude": 47.3785240974,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "233",
+            "longitude": 8.0850365693,
+            "latitude": 47.3777523204,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "234",
+            "longitude": 8.0854158317,
+            "latitude": 47.3768330191,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "235",
+            "longitude": 8.0856227477,
+            "latitude": 47.3759758862,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "236",
+            "longitude": 8.0857711769,
+            "latitude": 47.375112597,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "237",
+            "longitude": 8.085631076,
+            "latitude": 47.374188149,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "238",
+            "longitude": 8.0850425705,
+            "latitude": 47.3733318799,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "239",
+            "longitude": 8.0842175985,
+            "latitude": 47.3726249278,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "240",
+            "longitude": 8.0833630205,
+            "latitude": 47.3720133457,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "241",
+            "longitude": 8.0821851282,
+            "latitude": 47.3711771526,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "242",
+            "longitude": 8.0816198594,
+            "latitude": 47.3707334804,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "243",
+            "longitude": 8.0810501622,
+            "latitude": 47.3699219247,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "244",
+            "longitude": 8.0815792784,
+            "latitude": 47.3691578457,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "245",
+            "longitude": 8.0826454044,
+            "latitude": 47.3686191517,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "246",
+            "longitude": 8.0837773932,
+            "latitude": 47.3681194594,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "247",
+            "longitude": 8.0848813622,
+            "latitude": 47.3676262668,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "248",
+            "longitude": 8.0859625727,
+            "latitude": 47.3671128831,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "249",
+            "longitude": 8.0869552643,
+            "latitude": 47.3666162478,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "250",
+            "longitude": 8.0880371463,
+            "latitude": 47.3660338662,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 23,
+            "dateOfFailure": "2021-10-23",
+            "segmentNo": "251",
+            "longitude": 8.0891262815,
+            "latitude": 47.3654472741,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "252",
+            "longitude": 8.090189325,
+            "latitude": 47.3648829511,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "253",
+            "longitude": 8.0912276543,
+            "latitude": 47.3643407215,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "254",
+            "longitude": 8.0923119405,
+            "latitude": 47.3639420418,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "255",
+            "longitude": 8.0935546426,
+            "latitude": 47.3637475695,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 1,
+            "dateOfFailure": "2021-10-1",
+            "segmentNo": "256",
+            "longitude": 8.0948415745,
+            "latitude": 47.3636902053,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "257",
+            "longitude": 8.0960796207,
+            "latitude": 47.3633989872,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "258",
+            "longitude": 8.0971049609,
+            "latitude": 47.3628064144,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "259",
+            "longitude": 8.0981549141,
+            "latitude": 47.362085124,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "260",
+            "longitude": 8.0986957309,
+            "latitude": 47.361796512,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "261",
+            "longitude": 8.1000591148,
+            "latitude": 47.3610753194,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 23,
+            "dateOfFailure": "2021-10-23",
+            "segmentNo": "262",
+            "longitude": 8.1011201426,
+            "latitude": 47.3604761491,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "263",
+            "longitude": 8.1021431727,
+            "latitude": 47.3598989204,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "264",
+            "longitude": 8.1030504324,
+            "latitude": 47.3593574154,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "265",
+            "longitude": 8.1040635475,
+            "latitude": 47.3587670324,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 1,
+            "dateOfFailure": "2021-10-1",
+            "segmentNo": "266",
+            "longitude": 8.10503077,
+            "latitude": 47.3580625265,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "267",
+            "longitude": 8.1058458355,
+            "latitude": 47.3572537285,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "268",
+            "longitude": 8.1064504761,
+            "latitude": 47.3565802122,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "269",
+            "longitude": 8.1071067421,
+            "latitude": 47.3557740436,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "270",
+            "longitude": 8.1077724447,
+            "latitude": 47.3549484351,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "271",
+            "longitude": 8.1084027481,
+            "latitude": 47.3541434942,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "272",
+            "longitude": 8.1089797948,
+            "latitude": 47.3533879648,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "273",
+            "longitude": 8.1095542704,
+            "latitude": 47.3526355755,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "274",
+            "longitude": 8.1101877586,
+            "latitude": 47.3518057579,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "275",
+            "longitude": 8.1108061326,
+            "latitude": 47.3509781728,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "276",
+            "longitude": 8.1113790449,
+            "latitude": 47.3501431906,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "277",
+            "longitude": 8.1118673818,
+            "latitude": 47.3492912488,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "278",
+            "longitude": 8.1122216629,
+            "latitude": 47.3484183574,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "279",
+            "longitude": 8.112435756,
+            "latitude": 47.3475515664,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "280",
+            "longitude": 8.1125942718,
+            "latitude": 47.346662291,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "281",
+            "longitude": 8.1127342213,
+            "latitude": 47.345790245,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "282",
+            "longitude": 8.1128961755,
+            "latitude": 47.3449642892,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "283",
+            "longitude": 8.1131720052,
+            "latitude": 47.3440566582,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "284",
+            "longitude": 8.1136030884,
+            "latitude": 47.3431795497,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "285",
+            "longitude": 8.1139438134,
+            "latitude": 47.342340226,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "286",
+            "longitude": 8.1141189598,
+            "latitude": 47.3414745747,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "287",
+            "longitude": 8.1141639334,
+            "latitude": 47.3405615145,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "288",
+            "longitude": 8.1141564174,
+            "latitude": 47.3396545483,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "289",
+            "longitude": 8.114127417,
+            "latitude": 47.3387663482,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "290",
+            "longitude": 8.1139440926,
+            "latitude": 47.3378083994,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "291",
+            "longitude": 8.1137387656,
+            "latitude": 47.3369697435,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "292",
+            "longitude": 8.1135234602,
+            "latitude": 47.3360903304,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "293",
+            "longitude": 8.1133092879,
+            "latitude": 47.3351915945,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "294",
+            "longitude": 8.113044866,
+            "latitude": 47.3343562493,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "295",
+            "longitude": 8.1126865261,
+            "latitude": 47.3334513837,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "296",
+            "longitude": 8.1129895527,
+            "latitude": 47.33257113,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "297",
+            "longitude": 8.1136889736,
+            "latitude": 47.3318380697,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "298",
+            "longitude": 8.1141961294,
+            "latitude": 47.3310308418,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "299",
+            "longitude": 8.114496591,
+            "latitude": 47.3301573042,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "300",
+            "longitude": 8.1143925016,
+            "latitude": 47.3293813436,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "301",
+            "longitude": 8.1140093706,
+            "latitude": 47.3284583929,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "302",
+            "longitude": 8.1136308537,
+            "latitude": 47.3275698549,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "303",
+            "longitude": 8.1133665111,
+            "latitude": 47.3267062196,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "304",
+            "longitude": 8.1132416783,
+            "latitude": 47.3258703655,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "305",
+            "longitude": 8.1131259904,
+            "latitude": 47.3249251542,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "306",
+            "longitude": 8.1131446368,
+            "latitude": 47.3240143336,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "307",
+            "longitude": 8.1133330027,
+            "latitude": 47.3231042709,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "308",
+            "longitude": 8.1135217665,
+            "latitude": 47.3222040578,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "309",
+            "longitude": 8.1135157176,
+            "latitude": 47.3213030711,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "310",
+            "longitude": 8.1132973093,
+            "latitude": 47.3204133912,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "311",
+            "longitude": 8.1130655083,
+            "latitude": 47.3196236613,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "312",
+            "longitude": 8.1128544397,
+            "latitude": 47.318729831,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "313",
+            "longitude": 8.112766338,
+            "latitude": 47.3177354873,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "314",
+            "longitude": 8.112735443,
+            "latitude": 47.3168266332,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "315",
+            "longitude": 8.1127194919,
+            "latitude": 47.3159471117,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "316",
+            "longitude": 8.1129313548,
+            "latitude": 47.3149246318,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "317",
+            "longitude": 8.1131615237,
+            "latitude": 47.3142991378,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "318",
+            "longitude": 8.1134901555,
+            "latitude": 47.3133890056,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "319",
+            "longitude": 8.1138329744,
+            "latitude": 47.3125006586,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "320",
+            "longitude": 8.1141095414,
+            "latitude": 47.3116137885,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "321",
+            "longitude": 8.1145927336,
+            "latitude": 47.3107315782,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "322",
+            "longitude": 8.1150760279,
+            "latitude": 47.3102237956,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "323",
+            "longitude": 8.1155746078,
+            "latitude": 47.309164975,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "324",
+            "longitude": 8.1160447164,
+            "latitude": 47.308296248,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "325",
+            "longitude": 8.1166686436,
+            "latitude": 47.3075377989,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "326",
+            "longitude": 8.1172980688,
+            "latitude": 47.3068156384,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "327",
+            "longitude": 8.1180059033,
+            "latitude": 47.3059901281,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "328",
+            "longitude": 8.1186414559,
+            "latitude": 47.3051851431,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "329",
+            "longitude": 8.119331084,
+            "latitude": 47.3042275373,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "330",
+            "longitude": 8.1198532676,
+            "latitude": 47.3035072631,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "331",
+            "longitude": 8.1204040832,
+            "latitude": 47.3028573988,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "332",
+            "longitude": 8.1211874213,
+            "latitude": 47.3021181175,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "333",
+            "longitude": 8.122132109,
+            "latitude": 47.3014465098,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "334",
+            "longitude": 8.1230154681,
+            "latitude": 47.300751326,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 0,
+            "dateOfFailure": "2021-10-0",
+            "segmentNo": "335",
+            "longitude": 8.1235301119,
+            "latitude": 47.2998984057,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "336",
+            "longitude": 8.1238929623,
+            "latitude": 47.2991639856,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "337",
+            "longitude": 8.1244055312,
+            "latitude": 47.2982831693,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 1,
+            "dateOfFailure": "2021-10-1",
+            "segmentNo": "338",
+            "longitude": 8.124970806,
+            "latitude": 47.2974268117,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "339",
+            "longitude": 8.1257588709,
+            "latitude": 47.2967060504,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "340",
+            "longitude": 8.1263867284,
+            "latitude": 47.2959226409,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "341",
+            "longitude": 8.1268692229,
+            "latitude": 47.2950836294,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "342",
+            "longitude": 8.1274005449,
+            "latitude": 47.2942630492,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "343",
+            "longitude": 8.1282161929,
+            "latitude": 47.2936522659,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "344",
+            "longitude": 8.1292155947,
+            "latitude": 47.2930574339,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "345",
+            "longitude": 8.1303080471,
+            "latitude": 47.2924081542,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "346",
+            "longitude": 8.1312803973,
+            "latitude": 47.2918295133,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "347",
+            "longitude": 8.1322556503,
+            "latitude": 47.291225727,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "348",
+            "longitude": 8.1331516211,
+            "latitude": 47.2905721411,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "349",
+            "longitude": 8.1340058557,
+            "latitude": 47.2899173893,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "350",
+            "longitude": 8.1349008194,
+            "latitude": 47.2892230365,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "351",
+            "longitude": 8.135767641,
+            "latitude": 47.2885527112,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "352",
+            "longitude": 8.1366235569,
+            "latitude": 47.2879018512,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "353",
+            "longitude": 8.1374969599,
+            "latitude": 47.287235246,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "354",
+            "longitude": 8.13830211,
+            "latitude": 47.2865375995,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "355",
+            "longitude": 8.138945899,
+            "latitude": 47.2857901257,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "356",
+            "longitude": 8.139594114,
+            "latitude": 47.2850065147,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "357",
+            "longitude": 8.1401686642,
+            "latitude": 47.2841990808,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "358",
+            "longitude": 8.1404829242,
+            "latitude": 47.2833341686,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "359",
+            "longitude": 8.1408665984,
+            "latitude": 47.2824484893,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "360",
+            "longitude": 8.1415246013,
+            "latitude": 47.2816462245,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "361",
+            "longitude": 8.1422438402,
+            "latitude": 47.2809016949,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "362",
+            "longitude": 8.1432826212,
+            "latitude": 47.2803324893,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "363",
+            "longitude": 8.1444235955,
+            "latitude": 47.2803965085,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "364",
+            "longitude": 8.1455272443,
+            "latitude": 47.2808613387,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "365",
+            "longitude": 8.1462872811,
+            "latitude": 47.2815885783,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "366",
+            "longitude": 8.1469296542,
+            "latitude": 47.2823674341,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "367",
+            "longitude": 8.1479702404,
+            "latitude": 47.2828664386,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "368",
+            "longitude": 8.1492240172,
+            "latitude": 47.2832613099,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "369",
+            "longitude": 8.1505687491,
+            "latitude": 47.2833289093,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "370",
+            "longitude": 8.1516946446,
+            "latitude": 47.2829625787,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 24,
+            "dateOfFailure": "2021-10-24",
+            "segmentNo": "371",
+            "longitude": 8.1528490922,
+            "latitude": 47.282429119,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 19,
+            "dateOfFailure": "2021-10-19",
+            "segmentNo": "372",
+            "longitude": 8.1537674284,
+            "latitude": 47.2818848167,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "373",
+            "longitude": 8.1547842264,
+            "latitude": 47.2812407404,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "374",
+            "longitude": 8.1556590968,
+            "latitude": 47.2806001834,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 11,
+            "dateOfFailure": "2021-10-11",
+            "segmentNo": "375",
+            "longitude": 8.1565460299,
+            "latitude": 47.2799437517,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "376",
+            "longitude": 8.1574588655,
+            "latitude": 47.2792681492,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 18,
+            "dateOfFailure": "2021-10-18",
+            "segmentNo": "377",
+            "longitude": 8.1583187798,
+            "latitude": 47.2786317146,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "378",
+            "longitude": 8.1592071867,
+            "latitude": 47.2779741921,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "379",
+            "longitude": 8.1601004137,
+            "latitude": 47.277315498,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 1,
+            "dateOfFailure": "2021-10-1",
+            "segmentNo": "380",
+            "longitude": 8.1610137136,
+            "latitude": 47.2766813083,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "381",
+            "longitude": 8.1620106998,
+            "latitude": 47.2761165463,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "382",
+            "longitude": 8.1630629969,
+            "latitude": 47.2756201443,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 6,
+            "dateOfFailure": "2021-10-6",
+            "segmentNo": "383",
+            "longitude": 8.1641931857,
+            "latitude": 47.2751009514,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "384",
+            "longitude": 8.1652945174,
+            "latitude": 47.274544599,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "385",
+            "longitude": 8.1663390426,
+            "latitude": 47.2739525032,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "386",
+            "longitude": 8.1672645307,
+            "latitude": 47.2734042983,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 1,
+            "dateOfFailure": "2021-10-1",
+            "segmentNo": "387",
+            "longitude": 8.1679043623,
+            "latitude": 47.2726480582,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "388",
+            "longitude": 8.1685004692,
+            "latitude": 47.2718262783,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "389",
+            "longitude": 8.1694161529,
+            "latitude": 47.2712289642,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "390",
+            "longitude": 8.1703879508,
+            "latitude": 47.2706372343,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "391",
+            "longitude": 8.1714139738,
+            "latitude": 47.2700087886,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "392",
+            "longitude": 8.1723614207,
+            "latitude": 47.2694265318,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "393",
+            "longitude": 8.1733411789,
+            "latitude": 47.2688241464,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "394",
+            "longitude": 8.1743098178,
+            "latitude": 47.2682154099,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "395",
+            "longitude": 8.1752410333,
+            "latitude": 47.2675805895,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 10,
+            "dateOfFailure": "2021-10-10",
+            "segmentNo": "396",
+            "longitude": 8.1760839024,
+            "latitude": 47.2668894003,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 21,
+            "dateOfFailure": "2021-10-21",
+            "segmentNo": "397",
+            "longitude": 8.1767780245,
+            "latitude": 47.2661277115,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "398",
+            "longitude": 8.1773221332,
+            "latitude": 47.2653129001,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "399",
+            "longitude": 8.1777968403,
+            "latitude": 47.2644750384,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "400",
+            "longitude": 8.1782625865,
+            "latitude": 47.2636320444,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "401",
+            "longitude": 8.1787029879,
+            "latitude": 47.2627825442,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "402",
+            "longitude": 8.1791248223,
+            "latitude": 47.2619284108,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "403",
+            "longitude": 8.1795048678,
+            "latitude": 47.2610673871,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "404",
+            "longitude": 8.1798827067,
+            "latitude": 47.2601704809,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "405",
+            "longitude": 8.1802332349,
+            "latitude": 47.2593384041,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 7,
+            "dateOfFailure": "2021-10-7",
+            "segmentNo": "406",
+            "longitude": 8.180653102,
+            "latitude": 47.2584588066,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "407",
+            "longitude": 8.181255509,
+            "latitude": 47.2575457228,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 25,
+            "dateOfFailure": "2021-10-25",
+            "segmentNo": "408",
+            "longitude": 8.1817625719,
+            "latitude": 47.2568676449,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 20,
+            "dateOfFailure": "2021-10-20",
+            "segmentNo": "409",
+            "longitude": 8.1823790915,
+            "latitude": 47.2560071192,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "410",
+            "longitude": 8.1829606086,
+            "latitude": 47.2551614582,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 2,
+            "dateOfFailure": "2021-10-2",
+            "segmentNo": "411",
+            "longitude": 8.1833399826,
+            "latitude": 47.2546164337,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "412",
+            "longitude": 8.1839520072,
+            "latitude": 47.2535900665,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 4,
+            "dateOfFailure": "2021-10-4",
+            "segmentNo": "413",
+            "longitude": 8.1841612555,
+            "latitude": 47.2526827831,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 15,
+            "dateOfFailure": "2021-10-15",
+            "segmentNo": "414",
+            "longitude": 8.1842918513,
+            "latitude": 47.251813283,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 13,
+            "dateOfFailure": "2021-10-13",
+            "segmentNo": "415",
+            "longitude": 8.1844467205,
+            "latitude": 47.2509048199,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 12,
+            "dateOfFailure": "2021-10-12",
+            "segmentNo": "416",
+            "longitude": 8.1845690886,
+            "latitude": 47.2500892363,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "417",
+            "longitude": 8.184817313,
+            "latitude": 47.2491632691,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "418",
+            "longitude": 8.1853164182,
+            "latitude": 47.2483238125,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 22,
+            "dateOfFailure": "2021-10-22",
+            "segmentNo": "419",
+            "longitude": 8.1858659897,
+            "latitude": 47.2475064836,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 3,
+            "dateOfFailure": "2021-10-3",
+            "segmentNo": "420",
+            "longitude": 8.1864199939,
+            "latitude": 47.2466622387,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 8,
+            "dateOfFailure": "2021-10-8",
+            "segmentNo": "421",
+            "longitude": 8.1869415631,
+            "latitude": 47.2458674216,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 17,
+            "dateOfFailure": "2021-10-17",
+            "segmentNo": "422",
+            "longitude": 8.1874634194,
+            "latitude": 47.2450720038,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 16,
+            "dateOfFailure": "2021-10-16",
+            "segmentNo": "423",
+            "longitude": 8.1880042046,
+            "latitude": 47.2442457768,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 14,
+            "dateOfFailure": "2021-10-14",
+            "segmentNo": "424",
+            "longitude": 8.1884769885,
+            "latitude": 47.2433837403,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 5,
+            "dateOfFailure": "2021-10-5",
+            "segmentNo": "425",
+            "longitude": 8.18882189,
+            "latitude": 47.2424447823,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "426",
+            "longitude": 8.1891706931,
+            "latitude": 47.2414408395,
+            "trackId": 1,
+            "areaNumber": 100
+          },
+          {
+            "daysUntilFailure": 9,
+            "dateOfFailure": "2021-10-9",
+            "segmentNo": "427",
+            "longitude": 8.1893132702,
+            "latitude": 47.2410368029,
+            "trackId": 1,
+            "areaNumber": 100
+          }
     ]
 }
