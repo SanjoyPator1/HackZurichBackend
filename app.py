@@ -127,13 +127,13 @@ grJson = json.load(g)
 # Function to convert a CSV to JSON
 def get_graph():
     print("graph")
-    print(grJson)
+    # print(grJson)
 
     # jsonFormat
     graphData = []
     for gej in grJson['graph']:
         # variables
-        print("gej", gej)
+        #print("gej", gej)
         date = gej['date']
         rssi = gej['rssi']
 
