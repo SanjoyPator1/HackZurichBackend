@@ -13,149 +13,59 @@ import pickle
 from flask import Flask
 
 
-# FLASK code
-app = Flask(__name__)  # creating the Flask class object
+# app.py
+from flask import Flask, request, jsonify
+app = Flask(__name__)
 
 
-@app.route("/", methods=['GET', 'POST'])
-# @cross_origin()
-def hello():
-    data = {"key": "home page value"}
-    data1 = json.dumps(data)
-    return data1
+@app.route('/getmsg/', methods=['GET'])
+def respond():
+    # Retrieve the name from url parameter
+    name = request.args.get("name", None)
+
+    # For debugging
+    print(f"got name {name}")
+
+    response = {}
+
+    # Check if user sent a name at all
+    if not name:
+        response["ERROR"] = "no name found, please send a name."
+    # Check if the user entered a number not a name
+    elif str(name).isdigit():
+        response["ERROR"] = "name can't be numeric."
+    # Now the user entered a valid name
+    else:
+        response["MESSAGE"] = f"Welcome {name} to our awesome platform!!"
+
+    # Return the response in json format
+    return jsonify(response)
 
 
-'''RSSI.csv route'''
+@app.route('/post/', methods=['POST'])
+def post_something():
+    param = request.form.get('name')
+    print(param)
+    # You can add the test cases you made in the previous function, but in our case here you are just testing the POST functionality
+    if param:
+        return jsonify({
+            "Message": f"Welcome {name} to our awesome platform!!",
+            # Add this option to distinct the POST request
+            "METHOD": "POST"
+        })
+    else:
+        return jsonify({
+            "ERROR": "no name found, please send a name."
+        })
+
+# A welcome message to test our server
 
 
-@app.route("/rssi", methods=['GET', 'POST'])
-# Function to convert a CSV to JSON
-# Takes the file paths as arguments
-def make_json():
-
-    csvFilePath = r'rssi_test50.csv'
-    jsonFilePath = r'rssi.json'
-    # create a dictionary
-    data = {}
-
-    # Open a csv reader called DictReader
-    with open(csvFilePath, encoding='utf-8') as csvf:
-        csvReader = csv.DictReader(csvf)
-
-        # Convert each row into a dictionary and add it to data
-        for rows in csvReader:
-
-            # ID as primary key
-            key = rows['sl']
-            data[key] = rows
-
-    # function to dump data
-    with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
-        jsonf.write(json.dumps(data, indent=4))
-
-    print(data)
-    # creating a json object
-    json_obj = json.dumps(data)
-
-    return json_obj
+@app.route('/')
+def index():
+    return "<h1>Welcome to our server !!</h1>"
 
 
-# reading dummy geo data .json
-f = open("dummyGeo.json")
-geoJson = json.load(f)
-
-'''Geo Feature'''
-
-
-@app.route("/geoFeature", methods=['GET', 'POST'])
-# Function to convert a CSV to JSON
-def get_geo():
-    print("geo")
-    # print(geoJson)
-
-    # jsonFormat
-    features = []
-    for gej in geoJson['geo']:
-        # variables
-        daysUntilNow = gej['daysUntilNow']
-        trackId = gej['trackId']
-        AreaNumber = gej['AreaNumber']
-        long = gej['long']
-        lat = gej['lat']
-        segNo = gej['segNo']
-
-        coordinates = []
-        coordinates.append(long)
-        coordinates.append(lat)
-
-        geometry = {
-            "type": "Point",
-            "coordinates": coordinates
-        }
-
-        feature = {
-            "type": "Feature",
-            "properties": {
-                "daysUntilNow": daysUntilNow,
-                "trackId": trackId,
-                "AreaNumber": AreaNumber,
-                "long": long,
-                "lat": lat,
-                "segNo": segNo
-            },
-            "geometry": geometry
-        }
-
-        features.append(feature)
-
-    featureCollection = {
-        "type": "FeatureCollection",
-        "features": features
-    }
-    # print(featureCollection)
-    json_obj = json.dumps(featureCollection)
-
-    return json_obj
-
-
-# opening Graph json data
-# reading dummy geo data .json
-g = open("dummyTimeRssi.json")
-grJson = json.load(g)
-
-'''Graph - date - rssi'''
-
-
-@app.route("/graphRssi", methods=['GET', 'POST'])
-# Function to convert a CSV to JSON
-def get_graph():
-    print("graph")
-    # print(grJson)
-
-    # jsonFormat
-    graphData = []
-    for gej in grJson['graph']:
-        # variables
-        #print("gej", gej)
-        date = gej['date']
-        rssi = gej['rssi']
-
-        data = {
-            "date": date,
-            "rssi": rssi
-        }
-
-        graphData.append(data)
-
-    graphJson = {"graph": graphData}
-
-    # print(featureCollection)
-    json_obj = json.dumps(graphJson)
-
-    return json_obj
-
-
-# # Call the make_json function
-# make_json(csvFilePath, jsonFilePath)
 if __name__ == '__main__':
-    app.run(debug=True, port=33507)
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
