@@ -11,11 +11,11 @@ import json
 import csv
 import pickle
 from flask import Flask
-
+from flask_cors import CORS
 
 # FLASK code
 app = Flask(__name__)  # creating the Flask class object
-
+CORS(app)
 
 @app.route("/", methods=['GET'])
 # @cross_origin()
