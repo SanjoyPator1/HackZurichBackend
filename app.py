@@ -17,9 +17,12 @@ from flask import Flask
 app = Flask(__name__)  # creating the Flask class object
 
 
-@app.route('/')
-def home():
-    return "hello, this is our flask backend"
+@app.route("/", methods=['GET', 'POST'])
+# @cross_origin()
+def hello():
+    data = {"key": "home page value"}
+    data1 = json.dumps(data)
+    return data1
 
 
 '''RSSI.csv route'''
