@@ -11,14 +11,15 @@ import json
 import csv
 import pickle
 from flask import Flask
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 # FLASK code
 app = Flask(__name__)  # creating the Flask class object
 CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route("/", methods=['GET'])
-# @cross_origin()
+@cross_origin(origin='*',headers=['Content-Type','Authorization'])
 def hello():
     data = {"key": "home page value"}
     data1 = json.dumps(data)
@@ -29,6 +30,7 @@ def hello():
 
 
 @app.route("/rssi", methods=['GET', 'POST'])
+@cross_origin(origin='*',headers=['Content-Type','Authorization'])
 # Function to convert a CSV to JSON
 # Takes the file paths as arguments
 def make_json():
@@ -69,6 +71,7 @@ geoJson = json.load(f)
 
 @app.route("/geoFeature", methods=['GET', 'POST'])
 # Function to convert a CSV to JSON
+@cross_origin(origin='*',headers=['Content-Type','Authorization'])
 def get_geo():
     print("geo")
     # print(geoJson)
@@ -127,6 +130,7 @@ grJson = json.load(g)
 
 
 @app.route("/graphRssi", methods=['GET', 'POST'])
+@cross_origin(origin='*',headers=['Content-Type','Authorization'])
 # Function to convert a CSV to JSON
 def get_graph():
     print("graph")
