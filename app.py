@@ -83,16 +83,17 @@ def get_geo():
     features = []
     for gej in geoJson['geo']:
         # variables
-        daysUntilNow = gej['daysUntilNow']
+        daysUntilFailure = gej['daysUntilFailure']
+        dateOfFailure = gej['dateOfFailure']
         trackId = gej['trackId']
-        AreaNumber = gej['AreaNumber']
-        long = gej['long']
-        lat = gej['lat']
-        segNo = gej['segNo']
+        areaNumber = gej['areaNumber']
+        longitude = gej['longitude']
+        latitude = gej['latitude']
+        segmentNo = gej['segmentNo']
 
         coordinates = []
-        coordinates.append(long)
-        coordinates.append(lat)
+        coordinates.append(longitude)
+        coordinates.append(latitude)
 
         geometry = {
             "type": "Point",
@@ -102,12 +103,13 @@ def get_geo():
         feature = {
             "type": "Feature",
             "properties": {
-                "daysUntilNow": daysUntilNow,
+                "daysUntilFailure": daysUntilFailure,
+                "dateOfFailure": dateOfFailure,
                 "trackId": trackId,
-                "AreaNumber": AreaNumber,
-                "long": long,
-                "lat": lat,
-                "segNo": segNo
+                "areaNumber": areaNumber,
+                "longitude": longitude,
+                "latitude": latitude,
+                "segmentNo": segmentNo
             },
             "geometry": geometry
         }

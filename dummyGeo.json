@@ -1,20 +1,22 @@
 {
     "geo":[
         {
-            "daysUntilNow":21,
+            "daysUntilFailure":6,
+            "dateOfFailure":"2021-09-26",
             "trackId":1,
-            "AreaNumber":33,
-            "long":8.43475341796875,
-            "lat":46.822616668804926,
-            "segNo":100
+            "areaNumber":33,
+            "longitude":8.43475341796875,
+            "latitude":46.822616668804926,
+            "segmentNo":100
         },
         {
-            "daysUntilNow":21,
+            "daysUntilFailure":21,
+            "dateOfFailure":"2021-10-10",
             "trackId":1,
-            "AreaNumber":33,
-            "long":8.43475341796875,
-            "lat":46.822616668804926,
-            "segNo":100
+            "areaNumber":33,
+            "longitude":8.43475341796875,
+            "latitude":46.822616668804926,
+            "segmentNo":100
         }
     ]
 }
