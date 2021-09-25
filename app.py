@@ -138,24 +138,13 @@ grJson = json.load(g)
 # Function to convert a CSV to JSON
 def get_graph():
     print("graph")
-    # print(grJson)
 
-    # jsonFormat
-    graphData = []
-    for gej in grJson['graph']:
-        # variables
-        #print("gej", gej)
-        date = gej['date']
-        rssi = gej['rssi']
-
-        data = {
-            "date": date,
-            "rssi": rssi
-        }
-
-        graphData.append(data)
-
-    graphJson = {"graph": graphData}
+    # TODO: Adjust this so that a segmentNumber can be provided in the body
+    # of the POST request which will choose what data to return.
+    segmentNumberToRetrieveGraphDataFor = 285
+    graphJson = {}
+    graphJson['data'] = grJson[str(segmentNumberToRetrieveGraphDataFor)]
+    graphJson['segmentNumber'] = segmentNumberToRetrieveGraphDataFor
 
     # print(featureCollection)
     json_obj = json.dumps(graphJson)
