@@ -155,4 +155,4 @@ def get_graph():
 # # Call the make_json function
 # make_json(csvFilePath, jsonFilePath)
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=33507)
