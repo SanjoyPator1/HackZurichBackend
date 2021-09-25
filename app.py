@@ -11,7 +11,6 @@ import json
 import csv
 import pickle
 from flask import Flask
-from flask import jsonify
 
 
 # FLASK code
@@ -112,6 +111,43 @@ def get_geo():
     }
     # print(featureCollection)
     json_obj = json.dumps(featureCollection)
+
+    return json_obj
+
+
+# opening Graph json data
+# reading dummy geo data .json
+g = open("dummyTimeRssi.json")
+grJson = json.load(g)
+
+'''Graph - date - rssi'''
+
+
+@app.route("/graphRssi", methods=['GET', 'POST'])
+# Function to convert a CSV to JSON
+def get_graph():
+    print("graph")
+    print(grJson)
+
+    # jsonFormat
+    graphData = []
+    for gej in grJson['graph']:
+        # variables
+        print("gej", gej)
+        date = gej['date']
+        rssi = gej['rssi']
+
+        data = {
+            "date": date,
+            "rssi": rssi
+        }
+
+        graphData.append(data)
+
+    graphJson = {"graph": graphData}
+
+    # print(featureCollection)
+    json_obj = json.dumps(graphJson)
 
     return json_obj
 
