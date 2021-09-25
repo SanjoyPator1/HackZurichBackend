@@ -22,7 +22,10 @@ app = Flask(__name__)  # creating the Flask class object
 def home():
     return "hello, this is our flask backend"
 
+
 '''RSSI.csv route'''
+
+
 @app.route("/rssi", methods=['GET', 'POST'])
 # Function to convert a CSV to JSON
 # Takes the file paths as arguments
@@ -51,6 +54,64 @@ def make_json():
     print(data)
     # creating a json object
     json_obj = json.dumps(data)
+
+    return json_obj
+
+
+# reading dummy geo data .json
+f = open("dummyGeo.json")
+geoJson = json.load(f)
+
+'''Geo Feature'''
+
+
+@app.route("/geoFeature", methods=['GET', 'POST'])
+# Function to convert a CSV to JSON
+def get_geo():
+    print("geo")
+    # print(geoJson)
+
+    # jsonFormat
+    features = []
+    for gej in geoJson['geo']:
+        # variables
+        daysUntilNow = gej['daysUntilNow']
+        trackId = gej['trackId']
+        AreaNumber = gej['AreaNumber']
+        long = gej['long']
+        lat = gej['lat']
+        segNo = gej['segNo']
+
+        coordinates = []
+        coordinates.append(long)
+        coordinates.append(lat)
+
+        geometry = {
+            "type": "Point",
+            "coordinates": coordinates
+        }
+
+        feature = {
+            "type": "Feature",
+            "properties": {
+                "daysUntilNow": daysUntilNow,
+                "trackId": trackId,
+                "AreaNumber": AreaNumber,
+                "long": long,
+                "lat": lat,
+                "segNo": segNo
+            },
+            "geometry": geometry
+        }
+
+        features.append(feature)
+
+    featureCollection = {
+        "type": "FeatureCollection",
+        "features": features
+    }
+    # print(featureCollection)
+    json_obj = json.dumps(featureCollection)
 
     return json_obj
 
