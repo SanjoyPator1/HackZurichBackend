@@ -165,41 +165,18 @@ frJson = json.load(h)
 @app.route('/forecast/<string:segNo>/', methods=['GET', 'POST'])
 def fore(segNo):
 
-    arr = []
+    res = {}
 
-    frKeys = frJson.keys()
-    print(frKeys)
-
-    # for fr in frJson:
-    #     print(fr)
-    #     data = {}
-    #     found = "notFound"
-    #     if(fr == segNo):
-    #         print("seg found")
-    # DateTime = fr['DateTime']
-    # TourID = fr['TourID']
-    # A2_RSSI = fr['A2_RSSI']
-    # SNR = fr['SNR']
-    # found = "found"
-
-    #         data = {
-    #             # 'DateTime': DateTime,
-    #             'TourId': TourID,
-    #             'A2_RSSI': A2_RSSI,
-    #             'SNR': SNR,
-    #             'found': found
-    #         }
-
-    #         arr.append(data)
-
-    # res = {
-    #     segNo: arr
-    # }
+    try:
+        res = frJson[str(segNo)]
+        print(res)
+    except:
+        res = {'found': 'notFound'}
 
     # # print(featureCollection)
-    # json_obj = json.dumps(res)
+    json_obj = json.dumps(res)
 
-    return frKeys
+    return json_obj
 
 
 # # Call the make_json function
