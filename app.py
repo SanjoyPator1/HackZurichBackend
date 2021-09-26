@@ -17,12 +17,15 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)  # creating the Flask class object
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
 
+
 @app.after_request
 def after_request(response):
     response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type,Authorization')
+    response.headers.add('Access-Control-Allow-Headers',
+                         'Content-Type,Authorization')
     response.headers.add('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
     return response
+
 
 @app.route("/", methods=['GET'])
 def hello():
@@ -59,7 +62,7 @@ def make_json():
     with open(jsonFilePath, 'w', encoding='utf-8') as jsonf:
         jsonf.write(json.dumps(data, indent=4))
 
-    print(data)
+    # print(data)
     # creating a json object
     json_obj = json.dumps(data)
 
@@ -150,6 +153,53 @@ def get_graph():
     json_obj = json.dumps(graphJson)
 
     return json_obj
+
+
+'''Get segment info'''
+# opening Graph json data
+# reading dummy geo data .json
+h = open("forecastSegment.json")
+frJson = json.load(h)
+
+
+@app.route('/forecast/<string:segNo>/', methods=['GET', 'POST'])
+def fore(segNo):
+
+    arr = []
+
+    frKeys = frJson.keys()
+    print(frKeys)
+
+    # for fr in frJson:
+    #     print(fr)
+    #     data = {}
+    #     found = "notFound"
+    #     if(fr == segNo):
+    #         print("seg found")
+    # DateTime = fr['DateTime']
+    # TourID = fr['TourID']
+    # A2_RSSI = fr['A2_RSSI']
+    # SNR = fr['SNR']
+    # found = "found"
+
+    #         data = {
+    #             # 'DateTime': DateTime,
+    #             'TourId': TourID,
+    #             'A2_RSSI': A2_RSSI,
+    #             'SNR': SNR,
+    #             'found': found
+    #         }
+
+    #         arr.append(data)
+
+    # res = {
+    #     segNo: arr
+    # }
+
+    # # print(featureCollection)
+    # json_obj = json.dumps(res)
+
+    return frKeys
 
 
 # # Call the make_json function
